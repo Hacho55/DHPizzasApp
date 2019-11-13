@@ -24,14 +24,14 @@ if (pedidos != null) {
     let gustoChica = filtrarPorTamano('Chica');
 
     //Cantidad de pedido para delivery
-    let cantidadDelivery = pedidos.filter(delivery => pedidos.delivery == true);
+    let cantidadDelivery = pedidos.filter(cadaPedido => cadaPedido.delivery == true).length;
     
 
     //Cantidad de bebidas
     let cantidadBebidas = bebidas => pedidos.filter(pedidos.conBebidas == true).lenght;
 
     //Cantidad de Clientes habituales
-    let cantClientesHabituales = habituales => pedidos.filter(pedidos.esCliente == true).lenght;
+    let cantClientesHabituales = pedidos.filter(pedido => pedidos.esCliente == true).lenght;
 
     let fecha = new Date();
 	let fechaGeneracion = fecha.toLocaleDateString();
