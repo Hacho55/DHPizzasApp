@@ -28,10 +28,12 @@ if (pedidos != null) {
     
 
     //Cantidad de bebidas
-    let cantidadBebidas = bebidas => pedidos.filter(pedidos.conBebidas == true).lenght;
+    let cantidadBebidas = pedidos.filter(pedidoBebida => pedidoBebida.conBebidas == true).length;
+   
 
     //Cantidad de Clientes habituales
-    let cantClientesHabituales = pedidos.filter(pedido => pedidos.esCliente == true).lenght;
+    let cantClientesHabituales = pedidos.filter(pedido => pedido.esCliente == true).length;
+    
 
     let fecha = new Date();
 	let fechaGeneracion = fecha.toLocaleDateString();

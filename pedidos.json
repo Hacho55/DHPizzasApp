@@ -59,5 +59,26 @@
   "totalProductos": 640,
   "descuento": 5,
   "id": 3
+ },
+ {
+  "delivery": true,
+  "direccionCliente": "Larrea 654",
+  "nombreCliente": "Edgardo",
+  "telefono": "34567890",
+  "gustoPizza": "Jamon",
+  "tamanoPizza": "Mediana",
+  "conBebidas": true,
+  "bebidas": "Cerveza",
+  "esCliente": true,
+  "empanadas": [
+   "JQ",
+   "Pollo",
+   "Capresse"
+  ],
+  "fecha": "2019-11-15",
+  "hora": "4:08:32 PM",
+  "totalProductos": 640,
+  "descuento": 5,
+  "id": 4
  }
 ]
